@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+	scroll-behavior: smooth; 
+}
+
+body {
+	padding: 0px 10px 0px 10px;
+	margin: 80px 5px, 10px 5px;
+}
+
+h1, h2, h3, h4, h5 {
+	color: black;
+}
+
+p {
+	margin-bottom: 0 !important;
+}
+
+strong {
+	color: #242322;
+}
+
+.subtitle {
+	line-height: auto;
+	text-align: center;
+	background-color: #911701;
+	font-family: "Playfair Display";
+	font-size: 40px;
+	font-weight: bolder;
+	justify-self: center;
+	padding: 4px;
+	color: white !important;
+
+}
+
+#plotly-logo-img {
+	width: 45px; 
+	height: auto;
+	padding-left: 4px;
+}
+
+#github-logo-img {
+	width: 45px;
+	height: auto;
+
+}
+
+.navbar {
+	margin: 0 10px 0px 10px;
+}
+
+#menubar-container {
+	margin: 8px;
+	padding: 4px;
+	list-style: none;
+	font-size: 1.05rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center !important;
+	align-items: center;
+	flex-basis: 80%;
+	height: 1.5rem;
+}
+
+
+#header-container {
+	margin: 2px, 2px;
+	padding: 2px, 8px;
+
+	display: flex;
+	flex-basis: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#home-button,
+#piechart-button,
+#check-review-button,
+#wc-button,
+#contact-button {
+	font-size: 1rem;/*16px;*/
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	color: white;
+	background: #911701;
+	border: 1px solid #033c73;
+	transition: all .2s ease-in-out;
+	margin: 0 auto;
+
+}
+
+#home-button:hover,
+#piechart-button:hover,
+#check-review-button:hover,
+#wc-button:hover,
+#contact-button:hover {
+	background: lightgray;
+	color: #033c73;
+	border: 1px solid transparent;
+	transform: scale(1.1);
+}
+
+#top {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to bottom, #033c73 25%, #1a5c9c, #3277ba, #64a4e3);
+	block-size: 600px;
+	background-size: cover;
+	margin: 0 0 4px 0;
+	padding: 2px;
+}
+
+#main-title {
+	text-align: center;
+	font-size: 48px;
+	color: white;
+	font-family: "Playfair Display", sans-serif;
+}
+
+#etsy-link:hover {
+	background-color: lightgrey;
+}
+
+#etsy-link {
+	text-decoration: none;
+}
+
+#footer-contact {
+	background-color: powderblue;
+	display: flex;
+	flex: 1;
+	width: 100%;
+	align-content: center;
+	vertical-align: center;
+	justify-content: space-between;
+	block-size: 180px;
+	font-size: '13px';
+	border-top: 2px solid white;
+}
+
+.footer-content {
+	padding: 8px;
+}
+
+/*#piechart-main-div {
+	display:flex;
+	width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+}*/
+
+#piechart-sub-main-div {
+	display:flex;
+	flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*#pie-chart {
+    width: 70%;
+    height: 95%;
+    background: blue;
+}*/
+
+#piechart-details-div {
+	display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 95%;
+    padding: 18px;
+  	box-shadow: 0 0 10px #aeb8b0;
+  	color: black;
+    background: powderblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+  	text-justify: inter-word;
+}
+
+.details_title {
+	padding: 0.75rem 1.25rem;
+	border-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-family: "Playfair Display", sans-serif;
+    color: black;
+    font-size: 26px;
+}
+
+#check-review-main-div {
+	margin-top: 50px;
+}
+
+.sub-heading {
+	background: linear-gradient(to right, #c9c9c9 15%, #cccecf 55%, transparent 95%);
+	width: 80%;
+	font-family: "Bitter", sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: black;
+	margin: 6px 0 6px 6px;
+	padding: 6px;
+}
+
+#review-dropdown {
+	width: 60%;
+	margin-left: 12px;
+}
+
+.result {
+	font-family: "Playfair Display", sans-serif;
+	font-size: 24px;
+	padding-left: 4px;
+	margin-left: 12px;
+}
+
+#find-review-section-div {
+	margin-top: 16px;
+}
+
+#text-area-box {
+	width: 50%;
+	height: 150px;
+	margin: 12px;
+}
+
+#bar_plot {
+	line-height: none;
+	height: 600;
+	width: auto;
+}
+
+#bargraph-dropdown,
+#wordcloud-dropdown {
+	width: 50%;
+	padding: 12px;
+}
+
+#wc-dd-instruction {
+	font-size: 20px;
+	background: None;
+	padding: 12px;
+	font-family: "Bitter", sans-serif;
+}
