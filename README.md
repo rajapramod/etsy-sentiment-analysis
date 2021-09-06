@@ -7,7 +7,7 @@
 ## About the project
 - The objective of this project is to build a machine learning model that analyses sentiment of reviews entered by customers on e-commerce website Etsy.
 - **Data gathering & pre-processing:** A subset of 7 million reviews from [Amazon Review Dataset (2018)](https://nijianmo.github.io/amazon/) was used to select a model after training & examining different machine learning models and their performance.
-- Model Training: The training sets were prepared using two different vectorization methods; Count Vectorization & TF-IDF Vectorization. And Logistic Regression was used to train the input data. Stop-words from English, Spanish & French languages were removed from the training set (based on frequency of said languages in the target dataset). 
+- **Model Training:** The training sets were prepared using two different vectorization methods; Count Vectorization & TF-IDF Vectorization. And Logistic Regression was used to train the input data. Stop-words from English, Spanish & French languages were removed from the training set (based on frequency of said languages in the target dataset). 
 - The TF-IDF Vectorized deep learning model had a training accuracy of 99% and test accuracy of 90.5%, which was used in this project.
 - A total of 53,000 reviews were scraped from Etsy (Jewellery & Accessories section) using Python libraries Selenium & BeautifulSoup.
 - By using [Plotly Dash](https://plotly.com/dash/) to create an interactive web application.
