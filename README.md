@@ -12,4 +12,4 @@
 - A total of 53,000 reviews were scraped from Etsy (Jewellery & Accessories section) using Python libraries Selenium & BeautifulSoup.
 - Created an interactive web application using [Plotly Dash](https://plotly.com/dash/), HTML5 & CSS3.
 
-### Application deployed on Heroku [here](https://etsysentimentanalysis.herokuapp.com/).
+### Application deployed on Heroku can be found [here](https://etsysentimentanalysis.herokuapp.com/).
