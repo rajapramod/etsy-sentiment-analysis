@@ -29,7 +29,7 @@ def create_layout(app):
 
 
                 html.A(html.Img(src=GITHUB_LOGO, id='github-logo-img', alt='GitHub-Link'), 
-                            target='_blank', href='https://www.github.com', style={'margin-left':'auto'}),
+                            target='_blank', href='https://github.com/rajapramod/etsy-sentiment-analysis.git', style={'margin-left':'auto'}),
 
             ], fixed='top', color='info', className='navbar-container'),
                      ], id='header-container'),
