@@ -140,7 +140,6 @@ def update_bargraph(no_of_words):
 
     fig.update_traces(hovertemplate='Word:%{x}<br>Repeated: %{y} times<extra></extra>')
     fig.update_layout(title = {'font': {'family': 'Playfair Display', 'size': 26}, 'pad': {'l': 380}, 'text': 'Words v/s Frequency Chart'})
-    print(fig)
     return fig
 
     
