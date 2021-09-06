@@ -7,7 +7,6 @@ import dash_html_components as html
 import pickle
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
 
 
 
